@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Session Expired </title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
+
+      width: 100%;
+    }
+
+    body {
+      background-color: #E8F2FC;
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    .ContentBox {
+
+      display: flex;
+      justify-content: center;
+      position: relative;
+      margin-top: 50px;
+
+
+
+    }
+
+    .ContentArea {
+
+      background: #fff;
+      border-radius: 50px;
+      width: 60%;
+      display: flex;
+      justify-content: center;
+      box-shadow: 8px 8px 40px -30px rgba(17, 18, 19, 1);
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+
+    .ContentImg img {
+      width: 200px;
+      margin: 50px 0px;
+    }
+
+    .ContentTextarea h2 {
+      font-size: 35px;
+      font-weight: 800;
+    }
+
+    .ContentTextarea p {
+      font-size: 15px;
+      font-weight: 600;
+      color: #666;
+      text-align: center;
+      margin: 10px 0px;
+      font-family: 'Montserrat', sans-serif;
+      margin-bottom: 50px;
+    }
+
+   
+
+
+    .ContentBtn input:active {
+      box-shadow: none;
+      transform: translateY(5px);
+    }
+
+    @media only screen and (max-width: 500px) {
+      .ContentArea {
+        width: 90%;
+      }
+
+      .ContentImg img {
+        width: 200px;
+        margin: 30px 0px;
+      }
+
+      .ContentTextarea h2 {
+        font-size: 25px;
+        font-weight: 800;
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="ContentBox">
+    <div class="ContentArea">
+      <div class="ContentImg">
+        <img src="/TimeSession.png.png" alt="TimeOut_Logo">
+      </div>
+      <div class="ContentTextarea">
+        <h2>Oops, Your Link has expired.</h2>
+        <p>Your Link has expired. No worry, simply contact your constant HR.</p>
+      </div>
+      
+    </div>
+  </div>
+</body>
+
+</html>
